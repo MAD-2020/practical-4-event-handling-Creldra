@@ -80,7 +80,7 @@ public class Main2Activity extends AppCompatActivity {
 
     private void readyTimer(){
         Log.v(TAG,"readyTimer() entered");
-        gameCountDown = new CountDownTimer(1000, 1000) {
+        gameCountDown = new CountDownTimer(10000, 1000) {
             @Override
             public void onTick(long l) {
                 Log.v(TAG,"Ready CountDown!" + l/1000);
